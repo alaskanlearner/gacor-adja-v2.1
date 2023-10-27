@@ -7,7 +7,7 @@
     #   shell: docker container rm adja2-container
     # - name: remove docker image
     #   shell: docker image rm oalalif/adja-2
-    # - name: create new container
+    - name: create new container
     #   shell: docker container run -itd --name adja2-container oalalif/adja-2.1
 
 # untuk update
@@ -19,5 +19,5 @@
 #       shell: docker container rm adja2.1-container
 #     - name: remove docker image
 #       shell: docker image rm oalalif/adja-2.1
-    - name: create new container
+    # - name: create new container
       shell: docker container run -itd --name adja2.1-container oalalif/adja-2

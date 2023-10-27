@@ -7,7 +7,7 @@
     #    shell: docker container rm dockeradja2
     #  - name: docker image removal
     #    shell: docker image rm -f oalalif/gacor-adja2
-    #  - name: create new container
+     - name: create new container
     #    shell: docker run -itd --name dockeradja2.1 oalalif/gacor-adja2.1
 
 
@@ -19,5 +19,5 @@
 #        shell: docker container rm dockeradja2.1
 #      - name: docker image removal
 #        shell: docker image rm -f oalalif/gacor-adja2.1
-     - name: create new container
+    #  - name: create new container
        shell: docker run -itd --name dockeradja2.1 oalalif/gacor-adja2

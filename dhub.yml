@@ -1,12 +1,12 @@
 # baiknya hilangkan jika sudah adja1 nya
 - hosts: all
   tasks:
-     - name: stop container
-       shell: docker container stop dockeradja2
-     - name: remove container
-       shell: docker container rm dockeradja2
-     - name: docker image removal
-       shell: docker image rm -f oalalif/gacor-adja2
+    #  - name: stop container
+    #    shell: docker container stop dockeradja2
+    #  - name: remove container
+    #    shell: docker container rm dockeradja2
+    #  - name: docker image removal
+    #    shell: docker image rm -f oalalif/gacor-adja2
     #  - name: create new container
     #    shell: docker run -itd --name dockeradja2.1 oalalif/gacor-adja2.1
 

@@ -1,0 +1,23 @@
+# baiknya hilangkan jika sudah adja1 nya
+- hosts: all
+  tasks:
+    - name: stop container
+      shell: docker container stop adja2-container
+    - name: remove container
+      shell: docker container rm adja2-container
+    - name: remove docker image
+      shell: docker image rm oalalif/adja-2
+    # - name: create new container
+    #   shell: docker container run -itd --name adja2-container oalalif/adja-2
+
+# untuk update
+# - hosts: all
+#   tasks:
+#     - name: stop container
+#       shell: docker container stop adja2.1-container
+#     - name: remove container
+#       shell: docker container rm adja2.1-container
+#     - name: remove docker image
+#       shell: docker image rm oalalif/adja-2.1
+    - name: create new container
+      shell: docker container run -itd --name adja2.1-container oalalif/adja-2.1

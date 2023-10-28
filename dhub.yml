@@ -1,13 +1,13 @@
 - hosts: all
   tasks:
 
-# - hosts: all
-#   tasks:
-#      - name: stop container
-#        shell: docker container stop dockeradja3
-#      - name: remove container
-#        shell: docker container rm dockeradja3
-#      - name: docker image removal
-#        shell: docker image rm -f oalalif/gadja-v3
+- hosts: all
+  tasks:
+     - name: stop container
+       shell: docker container stop dockeradja3
+     - name: remove container
+       shell: docker container rm dockeradja3
+     - name: docker image removal
+       shell: docker image rm -f oalalif/gadja-v3
      - name: create new container
        shell: docker run -itd --name dockeradja3 oalalif/gadja-v3

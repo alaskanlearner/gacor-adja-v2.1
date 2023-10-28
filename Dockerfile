@@ -5,7 +5,7 @@ FROM python:3.12-alpine3.18
 RUN apk update && apk add --no-cache git build-base
 
 # CLONE REPOSITORY
-RUN git clone https://github.com/alaskanlearner/gacor-adja-v2 /home/fsub  ; chmod 777 /home/fsub ; chmod 777 /home/fsub
+RUN git clone https://github.com/alaskanlearner/gadja-v3 /home/fsub  ; chmod 777 /home/fsub ; chmod 777 /home/fsub
 
 # WORKDIR
 WORKDIR /home/fsub

@@ -1,5 +1,6 @@
 - hosts: docker
   tasks:
+<<<<<<< HEAD
     #  - name: stop container
     #    shell: docker container stop dockeradja1
     #  - name: remove container
@@ -8,3 +9,13 @@
     #    shell: docker image rm -f oalalif/gadja-v1
      - name: create new container
        shell: docker run -itd --name dockeradja1 oalalif/gadja-v1
+=======
+     - name: stop container
+       shell: docker container stop dockeradja3
+     - name: remove container
+       shell: docker container rm dockeradja3
+     - name: docker image removal
+       shell: docker image rm -f oalalif/gadja-v3
+     - name: create new container
+       shell: docker run -itd --name dockeradja3 oalalif/gadja-v3
+>>>>>>> 0fac093e8eaa04842573efba7efc2752a6a35b2c

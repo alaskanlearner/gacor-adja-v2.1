@@ -1,5 +1,5 @@
 # SET BASE IMAGE OS
-FROM python:3.12-slim
+FROM python:3.12
 
 # UPDATE AND INSTALL GIT, BUILD ESSENTIAL
 RUN apk update && apk add --no-cache git build-base

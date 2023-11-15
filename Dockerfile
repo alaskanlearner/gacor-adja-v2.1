@@ -1,5 +1,5 @@
 # SET BASE IMAGE OS
-FROM python:3.12
+FROM python:3.12-alpine3.18
 
 # UPDATE AND INSTALL GIT, BUILD ESSENTIAL
 RUN apk update && apk add --no-cache git build-base

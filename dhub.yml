@@ -5,6 +5,6 @@
 #      - name: remove container
 #        shell: docker container rm dockeradja1
 #      - name: docker image removal
-#        shell: docker image rm -f oalalif/gadja-v1
+#        shell: docker image rm -f oalalif/gadja2.1
      - name: create new container
-       shell: docker run -itd --name dockeradja1 oalalif/gadja-v1
+       shell: docker run -itd --name dockeradja1 oalalif/gadja2.1

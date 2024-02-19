@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: docker
   tasks:
 #      - name: stop container
 #        shell: docker container stop dockeradja1
